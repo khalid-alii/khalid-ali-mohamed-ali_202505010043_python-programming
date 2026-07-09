@@ -1,0 +1,10 @@
+def display_ticket(name, id, issue, location, priority, technician):
+    print("\n=== TICKET DETAILS ===")
+    print(f"Student Name: {name}")
+    print(f"Student ID: {id}")
+    print(f"Issue: {issue}")
+    print(f"Location: {location}")
+    print(f"Priority: {priority}")
+    print(f"Technician: {technician}")
+    print(f"Status: Pending")
+    print("=======================")
