@@ -17,3 +17,4 @@ This application is a receipt generator for a Food Delivery System. It takes use
 ## Video
 <video src="C:\Users\kali3\khalid-ali-mohamed-ali_202505010043_python-programming\week-8\My Video.mp4" controls="controls" width="600" title="My Video">
 </video>
+Because the video is more than 50mb maybe github won't show it, but it's uploaded in the week-8 folder under the name "My Video.mp4" you could download it.
