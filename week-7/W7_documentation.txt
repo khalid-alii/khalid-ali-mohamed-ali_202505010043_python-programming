@@ -1,0 +1,6 @@
+Bug Identification in main.py:
+
+1. Missing Imports: The file was missing the import statement `from food_order import calculate_total`, meaning it could not use the external calculation logic.
+2. Missing Calculation Assignment: The `total` variable was left blank (`total = ________`) and wasn't calling the calculation function.
+3. Lack of Error Handling (Crashing Bug): The original code used `float(input())` and `int(input())` without a try-except block. If a customer entered non-numeric characters (like text or symbols), the program would throw a `ValueError` and crash instantly. 
+4. Unhandled Validation Strings: The system requires validation for negative inputs (returning "invalid price" or "invalid quantity"). The original print statement `print(f"Total Payment = RM {total:.2f}")` would crash if it attempted to format a returned string as a 2-decimal float.
