@@ -15,4 +15,5 @@ This application is a receipt generator for a Food Delivery System. It takes use
    python main.py
 
 ## Video
-<video src="C:\Users\kali3\Videos\Captures\main.mp4" controls width="640"></video>
+<video src="C:\Users\kali3\khalid-ali-mohamed-ali_202505010043_python-programming\week-8\My Video.mp4" controls="controls" width="600" title="My Video">
+</video>
