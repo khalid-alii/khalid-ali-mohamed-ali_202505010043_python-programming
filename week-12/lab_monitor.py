@@ -1,18 +1,15 @@
 def check_computers():
-    computers = [] # initial value
+    computers = [] 
     
-    # iterate & check for 5 computer
+    
     for i in range(1, 6):
-        # prompt the user to classify each computer to either
-        # A - Available, U - Used, M - Maintenance
-        # Using .upper() to ensure the input matches the capital "A" check later
         status = input(f"Computer {i} Status (A/U/M): ").upper() 
         computers.append(status)
         
     return computers
 
 def count_available(computers):
-    available = 0 # initial value
+    available = 0 
     
     for status in computers:
         if status == "A":
@@ -28,4 +25,4 @@ def display_status(computers, available):
         
     print("------------------------")
     print(f"Available Computers: {available}")
-    print("================================")
+    print("=================================")
