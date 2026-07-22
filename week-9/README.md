@@ -7,6 +7,9 @@ This application is a simple, modular Ticket Registration System for a universit
 
 ## Video
 
-https://github.com/user-attachments/assets/f6b8eb0e-b585-4416-9e56-45f9c9f63a62
+
+https://github.com/user-attachments/assets/657375fd-949c-49a1-a0a8-e9ed7f574c1e
+
+
 
 
